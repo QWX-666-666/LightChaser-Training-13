@@ -4,26 +4,26 @@ int main()
 {
 	int a;
 	int i;
-	double sum;
+	double sum=0;
 	double average;
 	
-	printf("ÇëÊäÈëÊı¾İ¸öÊı£º");
+	printf("è¯·è¾“å…¥æ•°æ®ä¸ªæ•°ï¼š");
 	scanf("%d",&a);
-	int*b=(int*)malloc(a*sizeof(int));		// ÉêÇë a ¸ö int µÄ¿Õ¼ä
+	int*b=(int*)malloc(a*sizeof(int));		// ç”³è¯· a ä¸ª int çš„ç©ºé—´
 	if (b==NULL){
-		printf("ÄÚ´æ²»×ã\n");
-		return 1;							//´¦ÀíÄÚ´æ²»×ãµÄÇé¿ö 
+		printf("å†…å­˜ä¸è¶³\n");
+		return 1;							//å¤„ç†å†…å­˜ä¸è¶³çš„æƒ…å†µ 
 	}
 	
-	for(i=0;i<a;i++){						//ÓÃforÑ­»·ÇóºÍ 
-		printf("ÇëÊäÈëÒ»¸öÊı£º");
+	for(i=0;i<a;i++){						//ç”¨forå¾ªç¯æ±‚å’Œ 
+		printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š");
 		scanf("%d",&b[i]);
 		sum+=b[i];
 	}
-	printf("¸ÃÊı×éÆ½¾ùÖµÎª%lf\n",average=sum/a);    //Êä³öÆ½¾ùÖµ 
+	printf("è¯¥æ•°ç»„å¹³å‡å€¼ä¸º%lf\n",average=sum/a);    //è¾“å‡ºå¹³å‡å€¼ 
 
-	free(b);			//×ÔÓÉÁË£¡£¡£¡ 
-	b=NULL;				//ÖÃ¿Õ 
+	free(b);			//è‡ªç”±äº†ï¼ï¼ï¼ 
+	b=NULL;				//ç½®ç©º 
 	
 	return 0;
  } 
