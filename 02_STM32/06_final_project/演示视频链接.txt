@@ -1,0 +1,14 @@
+演示视频链接
+============
+
+视频（已随仓库一起提交）：02_STM32/06_final_project/演示视频.mp4
+
+在线观看（GitHub 播放器，可直接播放）：
+https://github.com/QWX-666-666/LightChaser-Training-13/blob/main/02_STM32/06_final_project/演示视频.mp4
+
+直链下载 / 浏览器直接播放：
+https://github.com/QWX-666-666/LightChaser-Training-13/raw/main/02_STM32/06_final_project/演示视频.mp4
+
+说明：
+- 演示内容：四路红外循迹（直道、弯道、急弯降速、丢线找回）+ 蓝牙遥控（前进/左转/右转/后退/刹车/加速）+ PA6/PB1 双按键切换模式。
+- 若上面的 GitHub 链接打开缓慢，可在仓库页面进入 02_STM32/06_final_project 目录，点击“演示视频.mp4”下载观看。
